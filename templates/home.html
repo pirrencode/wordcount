@@ -1,0 +1,18 @@
+<h1>WORD COUNT PROCESSER</h1>
+<hr>
+<form action="{% url 'count' %}">
+
+  <textarea cols="40" rows="10" name="fulltext"></textarea>
+  <br>
+  <br>
+  <input type="submit" value="Count!" />
+
+</form>
+<p>
+<form action="{% url 'about' %}"><input type="submit" value="About this mechanism"><form>
+<br>
+<hr>
+Rich text examples:<br>
+<a href="http://www.abrahamlincolnonline.org/lincoln/speeches/gettysburg.htm" target="_blank">The Gettysburg Address</a><br>
+<a href="https://www.ancient.eu/Abbey_of_Saint_John_at_Mustair/" target="_blank">Abbey of Saint John at Mustair</a><br>
+<a href="https://www.ancient.eu/Battle_of_Hattin/" target="_blank">Battle of Hattin</a>
